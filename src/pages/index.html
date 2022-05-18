@@ -5,9 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,800" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/custom.css">
 </head>
-<body class="bg-black">
-    
+<body class="bg-black text-white">
+    <!-- Block One -->
+    <div class="flex flex-col mx-auto h-screen">
+        
+        <!-- Nav bar -->
+        <div class="flex items-center justify-between pt-14 px-11 pb-28">
+            <div class="flex items-center justify-center">
+                <a href="#">
+                    <img src="../assets/images/logo.png" alt="logo">
+                </a>
+            </div>
+            <ul class="flex items-center justify-center space-x-6">
+                <li class="text-2xl">
+                    <a href="#">New Releases</a>
+                </li>
+                <li class="text-2xl">
+                    <a href="#">Men</a>
+                </li>
+                <li class="text-2xl">
+                    <a href="#">Women</a>
+                </li>
+                <li class="text-2xl">
+                    <a href="#">Kids</a>
+                </li>
+                <li class="text-2xl">
+                    <a href="#">Sale</a>
+                </li>
+                <li class="text-2xl">
+                    <a href="#">Gifts</a>
+                </li>
+            </ul>
+            <div class="flex items-center justify-center space-x-6">
+                <a href="#">
+                    <img src="../assets/icons/search.png" alt="search">
+                </a>
+                <a href="#">
+                    <img src="../assets/icons/user-avatar.png" alt="search">
+                </a>
+            </div>
+        </div>
+
+        <!-- Banner -->
+        <div class="relative flex flex-col items-center justify-between h-full">
+            <div class="absolute flex items-center justify-center h-full w-full opacity-20 -z-20">
+                <img src="../assets/images/nike.png" alt="nike">
+            </div>
+            <div class="font-bold text-7xl">AIR Beyond Compare</div>
+            <div class="relative flex flex-1 w-full">
+                <div class="absolute flex items-center justify-center h-1/2 w-full mt-5 -ml-16 -z-10">
+                    <img src="../assets/images/banner.png" alt="Banner">
+                </div>
+                <div class="absolute flex items-center justify-center h-full w-full">
+                    <div class="w-44 h-96 pt-96 rounded-full bg-secondary blur-3xl rotate-[60deg] -z-20"></div>
+                </div>
+            </div>
+            <div class="text-3xl">Explore the best Air Max for fall & beyond</div>
+        </div>
+
+        <!-- Divider -->
+        <div class="flex items-center justify-center w-full py-28">
+            <div class="h-3 w-40 bg-secondary rounded-full"></div>
+        </div>
+
+    </div>
 </body>
 </html>
