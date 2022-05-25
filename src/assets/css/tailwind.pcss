@@ -7,3 +7,13 @@
         text-shadow: 0px 0px 16px rgba(203,105,193,0.8);
     }
 }
+
+@layer components {
+    .btn-cirle {
+        @apply flex items-center justify-center w-20 h-20 bg-black rounded-full mr-16;
+    }
+
+    .btn-cirle--hover {
+        @apply hover:bg-primary;
+    }
+}
