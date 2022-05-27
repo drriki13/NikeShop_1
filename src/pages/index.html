@@ -9,38 +9,38 @@
     <link rel="stylesheet" href="../assets/css/main.css">
     <link rel="stylesheet" href="../assets/css/custom.css">
 </head>
-<body class="bg-black text-white">
+<body>
     <!-- Block One -->
-    <div class="flex flex-col mx-auto h-screen">
+    <div class="site-block">
         
         <!-- Nav bar -->
-        <div class="md:flex hidden items-center justify-between pt-14 px-11 pb-28">
-            <div class="flex items-center justify-center">
+        <div class="site-block_navbar site-block_navbar--desktop">
+            <div class="navbar_element">
                 <a href="#" class="hover:scale-105">
                     <img src="../assets/images/logo.png" alt="logo">
                 </a>
             </div>
-            <ul class="flex items-center justify-center space-x-6">
-                <li class="text-2xl hover:text-blur hover:underline underline-offset-8">
+            <ul class="navbar_element space-x-6">
+                <li class="navbar_element_menu-item">
                     <a href="#">New Releases</a>
                 </li>
-                <li class="text-2xl hover:text-blur hover:underline underline-offset-8">
+                <li class="navbar_element_menu-item">
                     <a href="#">Men</a>
                 </li>
-                <li class="text-2xl  hover:text-blur hover:underline underline-offset-8">
+                <li class="navbar_element_menu-item">
                     <a href="#">Women</a>
                 </li>
-                <li class="text-2xl hover:text-blur hover:underline underline-offset-8">
+                <li class="navbar_element_menu-item">
                     <a href="#">Kids</a>
                 </li>
-                <li class="text-2xl hover:text-blur hover:underline underline-offset-8">
+                <li class="navbar_element_menu-item">
                     <a href="#">Sale</a>
                 </li>
-                <li class="text-2xl hover:text-blur hover:underline underline-offset-8">
+                <li class="navbar_element_menu-item">
                     <a href="#">Gifts</a>
                 </li>
             </ul>
-            <div class="flex items-center justify-center space-x-6">
+            <div class="navbar_element space-x-6">
                 <a href="#" class="hover:scale-105">
                     <img src="../assets/icons/search.png" alt="search">
                 </a>
@@ -51,15 +51,15 @@
         </div>
 
         <!-- Mobile Nav bar -->
-        <div class="md:hidden flex items-center justify-center pt-14 px-11 pb-28">
-            <div class="flex items-center justify-between w-full">
+        <div class="site-block_navbar site-block_navbar--mobile">
+            <div class="navbar_element w-full">
                 <a href="#" class="hover:scale-105">
                     <img src="../assets/icons/user-avatar.png" alt="search">
                 </a>
                 <a href="#" class="hover:scale-105">
                     <img src="../assets/images/logo.png" alt="logo">
                 </a>
-                <div class="flex items-center justify-center space-x-6">
+                <div class="navbar_element space-x-6">
                     <a href="#" class="hover:scale-105">
                         <img src="../assets/icons/search.png" alt="search">
                     </a>
@@ -71,48 +71,48 @@
         </div>
 
         <!-- Banner -->
-        <div class="relative flex flex-col items-center justify-between h-full group">
-            <div class="absolute flex items-center justify-center h-full w-full opacity-20 -z-20">
+        <div class="site-block_banner group">
+            <div class="banner_wraper-img opacity-20 -z-20">
                 <img class="group-hover:scale-105" src="../assets/images/nike.png" alt="nike">
             </div>
-            <div class="text-center font-bold md:text-7xl text-5xl">AIR Beyond Compare</div>
-            <div class="relative flex flex-1 w-full">
-                <div class="absolute flex items-center justify-center h-full w-full -z-10 sm:-mt-20 sm:-ml-16 -mt-8 -ml-8">
+            <div class="banner_title--one-block">AIR Beyond Compare</div>
+            <div class="banner_wraper">
+                <div class="banner_wraper-img -z-10 sm:-mt-20 sm:-ml-16 -mt-8 -ml-8">
                     <img src="../assets/images/banner.png" alt="Banner">
                 </div>
-                <div class="absolute flex items-center justify-center h-full w-full">
-                    <div class="sm:w-44 w-12 h-96 pt-96 rounded-full bg-secondary blur-3xl group-hover:bg-primary rotate-[60deg] -z-20"></div>
+                <div class="banner_wraper-img">
+                    <div class="wraper_img--blur"></div>
                 </div>
             </div>
-            <div class="text-center md:text-3xl text-2xl text-blur">Explore the best Air Max for fall & beyond</div>
+            <div class="banner_desc">Explore the best Air Max for fall & beyond</div>
         </div>
 
         <!-- Divider -->
-        <div class="flex items-center justify-center w-full py-28">
-            <div class="h-3 w-40 bg-secondary rounded-full group">
-                <div class="flex items-center justify-center w-full h-full bg-secondary rounded-full group-hover:blur-lg"></div>
+        <div class="site-block_divider">
+            <div class="divider_line group">
+                <div class="line_blur"></div>
             </div>
         </div>
 
     </div>
 
     <!-- Block Two -->
-    <div class="flex flex-col mx-auto h-screen">
+    <div class="site-block">
         <!-- Banner 2 -->
-        <div class="relative flex flex-col items-center justify-between h-full bg-primary">
-            <div class="absolute flex items-center justify-center h-full w-full opacity-40 z-10">
+        <div class="site-block_banner bg-primary">
+            <div class="banner_wraper-img opacity-40 z-10">
                 <img src="../assets/images/NIKE ZOOM.png" alt="nike">
             </div>
-            <div class="absolute flex items-end justify-center h-full w-full z-0">
+            <div class="banner_bg-img">
                 <img class="w-full" src="../assets/images/bg-block-2.png" alt="bg block 2 ">
             </div>
-            <div class="self-start text-4xl font-medium pt-9 pl-9 z-30">The Nike ZoomX Vaporfly</div>
-            <div class="absolute flex items-center justify-center w-full h-full -ml-16 z-20">
+            <div class="banner_title--two-block">The Nike ZoomX Vaporfly</div>
+            <div class="banner_wraper-img -ml-16 z-20">
                 <img src="../assets/images/banner 2.png" alt="banner 2">
             </div>
-            <div class="flex items-center justify-end w-full pb-12 z-30">
-                <div class="text-6xl font-medium mr-8">250$</div>
-                <a href="#" class="btn-cirle btn-cirle--hover">
+            <div class="banner_footer">
+                <div class="footer_text">250$</div>
+                <a href="#" class="footer_link">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
                     </svg>
@@ -121,14 +121,16 @@
         </div>
 
         <!-- Divider -->
-        <div class="flex items-center justify-center w-full py-28">
-            <div class="h-3 w-40 bg-secondary rounded-full"></div>
+        <div class="site-block_divider">
+            <div class="divider_line group">
+                <div class="line_blur"></div>
+            </div>
         </div>
 
     </div>
 
     <!-- Block Three -->
-    <div class="flex flex-col mx-auto h-screen">
+    <div class="site-block">
 
         <!-- Slider -->
         <div class="flex flex-col items-center justify-center h-full w-full">
@@ -175,62 +177,64 @@
         </div>
 
         <!-- Divider -->
-        <div class="flex items-center justify-center w-full sm:py-28 py-40">
-            <div class="h-3 w-40 bg-secondary rounded-full"></div>
+        <div class="site-block_divider">
+            <div class="divider_line group">
+                <div class="line_blur"></div>
+            </div>
         </div>
 
     </div>
 
     <!-- Footer -->
-    <div class="flex flex-col items-center justify-center sm:pt-40 pt-80 mx-auto">
-        <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 w-full px-20">
+    <div class="footer">
+        <div class="footer_grid">
             <!-- ROW-1 -->
-            <a href="#" class="text-xl font-bold">GIFT CARDS</a>
-            <a href="#" class="text-xl font-bold">GET HELP</a>
-            <a href="#" class="text-xl font-bold">ABOUT NIKE</a>
+            <a href="#" class="footer_link--primary">GIFT CARDS</a>
+            <a href="#" class="footer_link--primary">GET HELP</a>
+            <a href="#" class="footer_link--primary">ABOUT NIKE</a>
 
-            <div class="row-span-6 flex items-start justify-start space-x-6">
-                <a href="#" class="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-bl from-primary to-secondary">
+            <div class="footer_social">
+                <a href="#" class="social_link">
                     <img src="../assets/icons/Facebook.png" alt="facebook">
                 </a>
-                <a href="#" class="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-bl from-primary to-secondary">
+                <a href="#" class="social_link">
                     <img src="../assets/icons/Twitter.png" alt="facebook">
                 </a>
-                <a href="#" class="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-bl from-primary to-secondary">
+                <a href="#" class="social_link">
                     <img src="../assets/icons/Youtube.png" alt="facebook">
                 </a>
-                <a href="#" class="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-bl from-primary to-secondary">
+                <a href="#" class="social_link">
                     <img src="../assets/icons/Instagram.png" alt="facebook">
                 </a>
             </div>
 
             <!-- ROW-2 -->
-            <a href="#" class="text-xl font-bold">PROMOTIONS</a>
-            <a href="#" class="text-lg text-secondary">Order Status</a>
-            <a href="#" class="text-lg text-secondary">News</a>
+            <a href="#" class="footer_link--primary">PROMOTIONS</a>
+            <a href="#" class="footer_link--secondary">Order Status</a>
+            <a href="#" class="footer_link--secondary">News</a>
 
             <!-- ROW-3 -->
-            <a href="#" class="text-xl font-bold">FIND A STORE</a>
-            <a href="#" class="text-lg text-secondary">Shipping and Delivery</a>
-            <a href="#" class="text-lg text-secondary">Careers</a>
+            <a href="#" class="footer_link--primary">FIND A STORE</a>
+            <a href="#" class="footer_link--secondary">Shipping and Delivery</a>
+            <a href="#" class="footer_link--secondary">Careers</a>
 
             <!-- ROW-4 -->
-            <a href="#" class="text-xl font-bold">SIGN UP FOR EMAIL</a>
-            <a href="#" class="text-lg text-secondary">Returns</a>
-            <a href="#" class="text-lg text-secondary">Investors</a>
+            <a href="#" class="footer_link--primary">SIGN UP FOR EMAIL</a>
+            <a href="#" class="footer_link--secondary">Returns</a>
+            <a href="#" class="footer_link--secondary">Investors</a>
 
             <!-- ROW-5 -->
-            <a href="#" class="text-xl font-bold">BECOME A MEMBER</a>
-            <a href="#" class="text-lg text-secondary">Payment Options</a>
-            <a href="#" class="text-lg text-secondary">Purpose</a>
+            <a href="#" class="footer_link--primary">BECOME A MEMBER</a>
+            <a href="#" class="footer_link--secondary">Payment Options</a>
+            <a href="#" class="footer_link--secondary">Purpose</a>
 
             <!-- ROW-6 -->
-            <a href="#" class="text-xl font-bold">NIKE JOURNAL</a>
-            <a href="#" class="text-lg text-secondary">Contact Us</a>
-            <a href="#" class="text-lg text-secondary">Sustainability</a>
+            <a href="#" class="footer_link--primary">NIKE JOURNAL</a>
+            <a href="#" class="footer_link--secondary">Contact Us</a>
+            <a href="#" class="footer_link--secondary">Sustainability</a>
 
             <!-- ROW-7 -->
-            <a href="#" class="text-xl font-bold">SEND US FEEDBACK</a>
+            <a href="#" class="footer_link--primary">SEND US FEEDBACK</a>
 
         </div>
         <img class="w-full" src="../assets/images/bg-footer.png" alt="bg-foter">

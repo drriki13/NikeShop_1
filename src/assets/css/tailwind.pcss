@@ -9,11 +9,111 @@
 }
 
 @layer components {
-    .btn-cirle {
-        @apply flex items-center justify-center w-20 h-20 bg-black rounded-full mr-16;
+    body {
+        @apply bg-black text-white;
     }
 
-    .btn-cirle--hover {
-        @apply hover:bg-primary;
+    .site-block {
+        @apply flex flex-col mx-auto h-screen;
+    }
+
+    .site-block_navbar {
+        @apply items-center justify-between pt-14 px-11 pb-28;
+    }
+
+    .site-block_navbar--desktop {
+        @apply md:flex hidden;
+    }
+
+    .site-block_navbar--mobile {
+        @apply md:hidden flex;
+    }
+
+    .navbar_element {
+        @apply flex items-center justify-center;
+    }
+
+    .navbar_element_menu-item {
+        @apply text-2xl hover:text-blur hover:underline underline-offset-8;
+    }
+
+    .site-block_divider {
+        @apply flex items-center justify-center w-full py-28;
+    }
+
+    .divider_line {
+        @apply h-3 w-40 bg-secondary rounded-full;
+    }
+
+    .line_blur {
+        @apply flex items-center justify-center w-full h-full bg-secondary rounded-full group-hover:blur-lg;
+    }
+
+    .site-block_banner {
+        @apply relative flex flex-col items-center justify-between h-full;
+    }
+
+    .banner_wraper-img {
+        @apply absolute flex items-center justify-center h-full w-full;
+    }
+
+    .banner_title--one-block {
+        @apply text-center font-bold md:text-7xl text-5xl;
+    }
+
+    .banner_desc {
+        @apply text-center md:text-3xl text-2xl text-blur;
+    }
+
+    .banner_title--two-block {
+        @apply self-start text-4xl font-medium pt-9 pl-9 z-30;
+    }
+
+    .banner_wraper {
+        @apply relative flex flex-1 w-full;
+    }
+
+    .wraper_img--blur {
+        @apply sm:w-44 w-12 h-96 pt-96 rounded-full bg-secondary blur-3xl group-hover:bg-primary rotate-[60deg] -z-20;
+    }
+
+    .banner_bg-img {
+        @apply absolute flex items-end justify-center h-full w-full z-0;
+    }
+
+    .banner_footer {
+        @apply flex items-center justify-end w-full pb-12 z-30;
+    }
+
+    .banner_footer > .footer_text {
+        @apply text-6xl font-medium mr-8;
+    }
+
+    .banner_footer > .footer_link {
+        @apply flex items-center justify-center w-20 h-20 bg-black rounded-full mr-16 hover:bg-primary;
+    }
+
+    .footer {
+        @apply flex flex-col items-center justify-center sm:pt-40 pt-80 mx-auto;
+    }
+
+    .footer_grid {
+        @apply grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 w-full px-20;
+    }
+
+    .footer_grid > .footer_link--primary {
+        @apply text-xl font-bold;
+    }
+
+    .footer_grid > .footer_link--secondary {
+        @apply text-lg text-secondary;
+    }
+
+    .footer_social {
+        @apply row-span-6 flex items-start justify-start space-x-6;
+    }
+
+    .footer_social > .social_link {
+        @apply flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-bl from-primary to-secondary;
     }
 }
